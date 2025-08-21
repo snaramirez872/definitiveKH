@@ -4,7 +4,7 @@ export function getTimeSince(timestamp: string): TimeSince {
     const past = new Date(timestamp).getTime();
     const now = Date.now();
 
-    let diff = Math.max(0, now - past);
+    const diff = Math.max(0, now - past);
 
     const secs = Math.floor(diff / 1000) % 60;
     const mins = Math.floor(diff / (1000 * 60)) % 60;
