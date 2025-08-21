@@ -1,0 +1,279 @@
+[
+  {
+    "id": 0,
+    "title": "Kingdom Hearts",
+    "release_date_JP": [
+      "28 March 2002"
+    ],
+    "release_date_NA": [
+      "17 September 2002"
+    ],
+    "platform": [
+      "PlayStation 2"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "The first game in the series."
+  },
+  {
+    "id": 1,
+    "title": "Kingdom Hearts Chain of Memories",
+    "release_date_JP": [
+      "11 November 2004"
+    ],
+    "release_date_NA": [
+      "7 December 2004"
+    ],
+    "platform": [
+      "Game Boy Advance"
+    ],
+    "genre": [
+      "Role-playing",
+      "Turn-based"
+    ],
+    "description": "One half of the brigde between the end of Kingdom Hearts I and the beginning of Kingdom Hearts II."
+  },
+  {
+    "id": 2,
+    "title": "Kingdom Hearts II",
+    "release_date_JP": [
+      "22 December 2005"
+    ],
+    "release_date_NA": [
+      "28 March 2006"
+    ],
+    "platform": [
+      "PlayStation 2"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "The second numbered game in the series. A fan favorite."
+  },
+  {
+    "id": 3,
+    "title": "Kingdom Hearts 358/2 Days",
+    "release_date_JP": [
+      "30 May 2009"
+    ],
+    "release_date_NA": [
+      "29 September 2009"
+    ],
+    "platform": [
+      "Nintendo DS"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "One half of the brigde between the end of Kingdom Hearts I and the beginning of Kingdom Hearts II."
+  },
+  {
+    "id": 4,
+    "title": "Kingdom Hearts Birth by Sleep",
+    "release_date_JP": [
+      "9 January 2010"
+    ],
+    "release_date_NA": [
+      "7 September 2010"
+    ],
+    "platform": [
+      "PlayStation Portable (PSP)"
+    ],
+    "genre": [
+      "Action Role-Playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Prequel to Kingdom Hearts I."
+  },
+  {
+    "id": 5,
+    "title": "Kingdom Hearts Re:Coded",
+    "release_date_JP": [
+      "7 October 2010"
+    ],
+    "release_date_NA": [
+      "11 January 2011"
+    ],
+    "platform": [
+      "Nintendo DS"
+    ],
+    "genre": [
+      "Role-playing",
+      "Puzzle Solver",
+      "Platforming"
+    ],
+    "description": "Connects every game so far (as of 2011) together. Remake of the original, Japan-exclusive mobile game Kingdom Hearts Coded."
+  },
+  {
+    "id": 6,
+    "title": "Kingdom Hearts Dream Drop Distance",
+    "release_date_JP": [
+      "29 March 2012"
+    ],
+    "release_date_NA": [
+      "31 July 2012"
+    ],
+    "platform": [
+      "Nintendo 3DS"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Direct sequel to Re:Coded. Last main game until Kingdom Hearts III."
+  },
+  {
+    "id": 7,
+    "title": "Kingdom Hearts Union &#x3C7;",
+    "release_date_JP": [
+      "3 September 2015"
+    ],
+    "release_date_NA": [
+      "7 April 2016"
+    ],
+    "platform": [
+      "Android",
+      "iOS"
+    ],
+    "genre": [
+      "Action Role-playing",
+      "Gacha",
+      "Hack'n'Slash"
+    ],
+    "description": "Takes place many centuries before Kingdom Hearts I. Delisted from all app stores in August 2024."
+  },
+  {
+    "id": 8,
+    "title": "Kingdom Hearts &#x3C7; Back Cover",
+    "release_date_JP": [
+      "12 January 2017"
+    ],
+    "release_date_NA": [
+      "24 January 2017"
+    ],
+    "platform": [
+      "PlayStation 4"
+    ],
+    "genre": [
+      "Animated Movie"
+    ],
+    "description": "Cinematic re-telling of the most important plot points in Kingdom Hearts Union &#x3C7;. Included in the Kingdom Hearts HD 2.8 Final Chapter Prologue Collection."
+  },
+  {
+    "id": 9,
+    "title": "Kingdom Hearts 0.2 Birth by Sleep - A Fragmentary Passage",
+    "release_date_JP": [
+      "12 January 2017"
+    ],
+    "release_date_NA": [
+      "24 January 2017"
+    ],
+    "platform": [
+      "PlayStation 4"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Takes place between Birth by Sleep and Kingdom Hearts I. Served as a tech demo for Kingdom Hearts III. Included in the Kingdom Hearts HD 2.8 Final Chapter Prologue Collection."
+  },
+  {
+    "id": 10,
+    "title": "Kingdom Hearts III",
+    "release_date_JP": [
+      "25 January 2019"
+    ],
+    "release_date_NA": [
+      "29 January 2019"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "genre": [
+      "Action Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Culmination of a story 17 years in the making (Not the end of that story)."
+  },
+  {
+    "id": 11,
+    "title": "Kingdom Hearts III Re Mind DLC",
+    "release_date_JP": [
+      "23 January 2020 (PS4)",
+      "25 February 2020 (XBox One)"
+    ],
+    "release_date_NA": [
+      "23 January 2020 (PS4)",
+      "25 February 2020 (XBox One)"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "genre": [
+      "Action Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Additional content for Kingdom Hearts III."
+  },
+  {
+    "id": 12,
+    "title": "Kingdom Hearts Dark Road",
+    "release_date_JP": [
+      "22 June 2020"
+    ],
+    "release_date_NA": [
+      "22 June 2020"
+    ],
+    "platform": [
+      "Anroid",
+      "iOS"
+    ],
+    "genre": [
+      "Role-playing"
+    ],
+    "description": "Prequel to Birth by Sleep and involves some themes established in Union &#x3C7;. Was accessible from within Union &#x3C7;."
+  },
+  {
+    "id": 13,
+    "title": "Kingdom Hearts Melody of Memory",
+    "release_date_JP": [
+      "11 November 2020"
+    ],
+    "release_date_NA": [
+      "13 November 2020"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch"
+    ],
+    "genre": [
+      "Rhythm Action"
+    ],
+    "description": "Serves as a re-telling of the story so far. Takes place after Kingdom Hearts III Re Mind DLC."
+  },
+  {
+    "id": 14,
+    "title": "Kingdom Hearts IV",
+    "release_date_JP": [
+      "Information not yet available"
+    ],
+    "release_date_NA": [
+      "Information not yet available"
+    ],
+    "platform": [
+      "Information not yet available"
+    ],
+    "genre": [
+      "Role-playing",
+      "Hack'n'Slash"
+    ],
+    "description": "Still in development. Art shown is from the KH4 Reveal Event in 2022 and is not the box art."
+  }
+]

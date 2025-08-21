@@ -1,0 +1,109 @@
+[
+  {
+    "id": 0,
+    "title": "Kingdom Hearts: Final Mix",
+    "release_date_JP": [
+      "26 December 2002 (PS2)",
+      "14 March 2013 (PS3)"
+    ],
+    "release_date_NA": [
+      "10 September 2013 (PS3)"
+    ],
+    "platform": [
+      "PlayStation 2",
+      "PlayStation 3"
+    ],
+    "description": "Remaster of of Kingdom Hearts I with added content. Was released in Japan first in 2002 because a lot of the original assets for Kingdom Hearts were lost. The game was re-released in 2013 as part of the Kingdom Hearts HD 1.5 ReMIX Collection."
+  },
+  {
+    "id": 1,
+    "title": "Kingdom Hearts Re:Chain of Memories",
+    "release_date_JP": [
+      "29 March 2007 (PS2)",
+      "14 March 2013 (PS3)"
+    ],
+    "release_date_NA": [
+      "2 December 2008 (PS2)",
+      "10 September 2013 (PS3)"
+    ],
+    "platform": [
+      "PlayStation 2",
+      "PlayStation 3"
+    ],
+    "description": "Console remake of Kingdom Hearts Chain of Memories with added content. In Japan, it was released as part of the Kingdom Hearts II: Final Mix compilation on the PlayStation 2. It was later re-released in 2013 as part of the Kingdom Hearts 1.5 ReMIX Collection."
+  },
+  {
+    "id": 2,
+    "title": "Kingdom Hearts 2: Final Mix",
+    "release_date_JP": [
+      "29 March 2007 (PS2)",
+      "2 October 2014 (PS3)"
+    ],
+    "release_date_NA": [
+      "2 December 2014 (PS3)"
+    ],
+    "platform": [
+      "PlayStation 2",
+      "PlayStation 3"
+    ],
+    "description": "Was originally a Japan-only title that included the Kingdom Hearts II remaster (with additional content) as well as Re:Chain of Memories. It was later re-released as part of the Kingdom Hearts 2.5 ReMIX Collection."
+  },
+  {
+    "id": 3,
+    "title": "Kingdom Hearts 358/2 Days HD",
+    "release_date_JP": [
+      "14 March 2013"
+    ],
+    "release_date_NA": [
+      "10 September 2013"
+    ],
+    "platform": [
+      "PlayStation 3"
+    ],
+    "description": "2 hours and 50 minutes of fully-voiced, high definition cutscenes based on the original game. A fully playable remake was originally planned, but Square Enix was running out of time prior to the release of Kingdom Hearts HD 1.5 ReMIX."
+  },
+  {
+    "id": 4,
+    "title": "Kingdom Hearts Birth by Sleep: Final Mix",
+    "release_date_JP": [
+      "10 January 2011 (PSP)",
+      "2 October 2014 (PS3)"
+    ],
+    "release_date_NA": [
+      "2 December 2014"
+    ],
+    "platform": [
+      "PlayStation Portable (PSP)",
+      "PlayStation 3"
+    ],
+    "description": "A remaster of Birth by Sleep with additional content. It was later re-released as part of the Kingdom Hearts 2.5 HD ReMIX Collection."
+  },
+  {
+    "id": 5,
+    "title": "Kingdom Hearts Re:Coded HD",
+    "release_date_JP": [
+      "2 October 2014"
+    ],
+    "release_date_NA": [
+      "2 December 2014"
+    ],
+    "platform": [
+      "PlayStation 3"
+    ],
+    "description": "3 hours of fully-voiced, high definition cutscenes based on the original game. In this compilation some more scenes were added to connect more of the games such as Union &#x3C7; and Dream Drop Distance."
+  },
+  {
+    "id": 6,
+    "title": "Kingdom Hearts Dream Drop Distance HD",
+    "release_date_JP": [
+      "12 January 2017"
+    ],
+    "release_date_NA": [
+      "24 January 2017"
+    ],
+    "platform": [
+      "PlayStation 4"
+    ],
+    "description": "HD Remaster of Dream Drop Distance with Quality-of-Life changes."
+  }
+]

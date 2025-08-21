@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  transition: ease-in-out 0.3s;
+}

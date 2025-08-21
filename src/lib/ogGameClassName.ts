@@ -1,0 +1,15 @@
+export const ogTitleClassMap: Record<string, string> = {
+    "Kingdom Hearts": "kh1",
+    "Kingdom Hearts Chain of Memories": "kh-com",
+    "Kingdom Hearts II": "kh2",
+    "Kingdom Hearts 358/2 Days": "kh-days",
+    "Kingdom Hearts Birth by Sleep": "kh-bbs",
+    "Kingdom Hearts Re:coded": "kh-recoded",
+    "Kingdom Hearts Dream Drop Distance": "kh-ddd",
+    "Kingdom Hearts χ Back Cover": "kh-back-cover",
+    "Kingdom Hearts Union χ": "kh-union-chi",
+    "Kingdom Hearts Dark Road": "kh-dark-road",
+    "Kingdom Hearts III": "kh3",
+    "Kingdom Hearts Melody of Memory": "kh-mom",
+    "Kingdom Hearts IV": "kh4",
+}
