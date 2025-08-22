@@ -4,7 +4,7 @@ export const ogTitleMap: string[] = [
     "Kingdom Hearts II",
     "Kingdom Hearts 358/2 Days",
     "Kingdom Hearts Birth by Sleep",
-    "Kingdom Hearts Re:coded",
+    "Kingdom Hearts Re:Coded",
     "Kingdom Hearts Dream Drop Distance",
     "Kingdom Hearts χ Back Cover",
     "Kingdom Hearts Union χ",

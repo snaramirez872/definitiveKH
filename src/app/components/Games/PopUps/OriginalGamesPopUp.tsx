@@ -10,10 +10,26 @@ export const OriginalGamesPopUp: React.FC<OGGamesProps> = ({ isOpen, onClose, ti
     // Tailwind for Actual Pop Ups
     let popUpContainer = "justify-center items-center h-[40vh] w-[80vh] p-[5vh] rounded-[5vh]";
     let closeButton = "w-[25%] text-[18px] p-[calc(18px/4)] rounded-[20px] cursor-pointer";
+    const closeButtonKH2 = closeButton + " bg-black text-white border-t-2 border-l-2 border-[rgb(99,99,99)] hover:bg-[linear-gradient(180deg,rgb(54,0,0)_0%,rgb(136,0,0)_100%)] hover:border-2 hover:border-red-500";
+    let desc = "mt-[36px]"
 
-    if (he.decode(title) === he.decode(ogTitleMap[0])) { // Kingdom Hearts I
-        popUpContainer += " bg-black bg-[linear-gradient(0deg,rgba(0,0,0,1)0%,rgb(8,0,46)63%,rgb(14,0,92)100%)] border-[5px] border-[rgb(38,0,255)] text-[rgb(106,158,218)]";
-        closeButton += " bg-[rgb(14,0,92)] text-[rgb(190,22,0)] hover:bg-[rgb(190,22,0)] hover:text-white";
+    // Kingdom Hearts I
+    if (he.decode(title) === he.decode(ogTitleMap[0])) {
+        popUpContainer += " bg-black bg-[linear-gradient(0deg,rgba(0,0,0,1)_0%,rgb(8,0,46)_63%,rgb(14,0,92)_100%)] border-[5px] border-[rgb(38,0,255)] text-[rgb(106,158,218)]";
+        closeButton += " bg-[rgb(14,0,92)] text-[rgb(119,119,119)] hover:bg-[rgb(190,22,0)] hover:text-white";
+    }
+
+    // Kingdom Hearts COM, Kingdom Hearts Re:Coded
+    if (he.decode(title) === he.decode(ogTitleMap[1]) || he.decode(title) === he.decode(ogTitleMap[5])) {
+        popUpContainer += " bg-black text-[rgb(106,158,218)] border-[5px] border-[rgb(38,0,255)]";
+        closeButton += " bg-[rgb(0,35,189)] text-[rgb(89,127,170)] hover:bg-[rgb(190,22,0)] hover:text-white hover:border-2 hover:border-[rgb(233,159,0)]";
+    }
+
+    // Kingdom Hearts II
+    if (he.decode(title) === he.decode(ogTitleMap[2])) {
+        popUpContainer += " bg-[linear-gradient(180deg,rgb(0,4,31)_0%,rgb(0,15,112)_100%)] border-t-2 border-t-white border-l-2 border-l-black border-r-2 border-r-[rgb(8,0,46)] border-b-2 border-b-[rgb(8,0,46)] text-white";
+        closeButton = closeButtonKH2;
+        desc += " text-yellow-300";
     }
 
     return (
@@ -39,7 +55,7 @@ export const OriginalGamesPopUp: React.FC<OGGamesProps> = ({ isOpen, onClose, ti
                 </section>
                 <section>
                     <p
-                        className="mt-[36px]"
+                        className={desc}
                     >
                         {he.decode(description)}
                     </p>
