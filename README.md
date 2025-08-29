@@ -18,7 +18,7 @@ Welcome to the code repository for Definitive KH! Definitive KH is a slightly am
 
 ### History Page (Planned, Not Yet in Development)
 - Will give the background of how the Kingdom Hearts games began and other cool facts about the series.
-- May include a fun facts section for nany extra facts.
+- May include a fun facts section for any extra facts.
 
 ### Soundtracks (Planned, Not Yet in Development)
 - Will link to the games soundtracks (whatever official is available on YouTube and Music Streaming Services)
