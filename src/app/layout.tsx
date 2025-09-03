@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="overflow-auto scrollbar-hide">
         <NavBar />
         {children}
       </body>

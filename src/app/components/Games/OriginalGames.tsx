@@ -22,7 +22,7 @@ export default function OriginalGames() {
 
     return (
         <div
-            className="grid grid-cols-5 gap-x-[4vh] gap-y-[4vh] p-4"
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-[4vh] gap-y-[4vh] p-4"
         >
             {originalGames.map((game) => {
                 const image = gameImages[game.id];

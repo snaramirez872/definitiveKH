@@ -7,11 +7,11 @@ export default function Home() {
 
   return (
     <div
-      className="flex flex-col justify-center items-center text-[18px] py-[5vh] px-[6vh]"
+      className="flex flex-col justify-center items-center py-[5vh] px-[6vh] text-center"
     >
-      <h2 className="text-[calc(20px+2vh)] font-medium">How Long We&apos;ve Been Waiting</h2>
-      <span className="text-[20px]">Time since Most Recent Kingdom Hearts 4 News/Update: <TimeSince time={mostRecentKH4News} /></span>
-      <span className="text-[20px]">Time since Kingdom Hearts 4 Reveal: <TimeSince time={kh4RevealEvent} /></span>
+      <h2 className="text-2xl py-3 sm:text-2xl font-medium">How Long We&apos;ve Been Waiting</h2>
+      <span className="text-[18px] sm:text-[20px]">Time since Most Recent Kingdom Hearts 4 News/Update: <TimeSince time={mostRecentKH4News} /></span>
+      <span className="text-[18px] sm:text-[20px]">Time since Kingdom Hearts 4 Reveal: <TimeSince time={kh4RevealEvent} /></span>
     </div>
   );
 }

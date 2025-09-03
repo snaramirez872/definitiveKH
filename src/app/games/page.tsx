@@ -8,7 +8,7 @@ export default function Games() {
             <h2 className="text-2xl font-semibold mt-[calc(18px*3)]">The Games: Original Releases</h2>
             <OriginalGames />
             <h2 className="text-2xl font-semibold mt-[calc(18px*3)]">The Games: Remastered Titles</h2>
-            <h2>The Games: Collections</h2>
+            <h2 className="text-2xl font-semibold mt-[calc(18px*3)]">The Games: Collections</h2>
         </div>
     );
 }

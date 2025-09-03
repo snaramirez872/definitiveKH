@@ -5,3 +5,13 @@
   font-family: 'Segoe UI', 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
   transition: ease-in-out 0.3s;
 }
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
