@@ -1,0 +1,169 @@
+[
+  {
+    "id": 0,
+    "title": "Kingdom Hearts 1.5 HD ReMIX",
+    "release_date_JP": [
+      "14 March 2013"
+    ],
+    "release_date_NA": [
+      "10 September 2013 (USA and CAN)"
+    ],
+    "release_date_EU_AUS": [
+      "12 September 2013 (AUS)",
+      "13 September 2013 (EU)"
+    ],
+    "release_date_WW": [
+      "Released worldwide through other collections"
+    ],
+    "platform": [
+      "PlayStation 3"
+    ],
+    "description": "Contains Kingdom Hearts Final Mix, Kingdom Hearts ReChain of Memories, and a compilation of HD cutscenes from Kingdom Hearts 358/2 Days."
+  },
+  {
+    "id": 1,
+    "title": "Kingdom Hearts 2.5 HD ReMIX",
+    "release_date_JP": [
+      "2 October 2014"
+    ],
+    "release_date_NA": [
+      "2 December 2014 (USA and CAN)"
+    ],
+    "release_date_EU_AUS": [
+      "4 December 2014 (AUS)",
+      "5 December 2014 (EU)"
+    ],
+    "release_date_WW": [
+      "Released worldwide through other collections"
+    ],
+    "platform": [
+      "PlayStation 3"
+    ],
+    "description": "Contains Kingdom Hearts II Final Mix, Kingdom Hearts Birth by Sleep Final Mix, and a compilation of HD cutscenes from Kingdom Hearts ReCoded."
+  },
+  {
+    "id": 2,
+    "title": "Kingdom Hearts HD 2.8 Final Chapter Prologue",
+    "release_date_JP": [
+      "12 Janaury 2017"
+    ],
+    "release_date_NA": [
+      "24 Janaury 2017"
+    ],
+    "release_date_EU_AUS": [
+      "24 January 2017"
+    ],
+    "release_date_WW": [
+      "18 February 2020 (Xbox One)",
+      "30 March 2021 (Windows)",
+      "10 February 2022 (Nintendo Switch 1)",
+      "13 June 2024 (Steam)"
+    ],
+    "platform": [
+      "PlayStation 4"
+    ],
+    "description": "Contains Kingdom Hearts Dream Drop Distance HD, Kingdom Hearts 0.2 Birth by Sleep -A Fragmentary Passage-, and Kingdom Hearts &#x3C7; Back Cover."
+  },
+  {
+    "id": 3,
+    "title": "Kingdom Hearts 1.5 + 2.5 HD ReMIX",
+    "release_date_JP": [
+      "9 March 2017 (PlayStation 4)"
+    ],
+    "release_date_NA": [
+      "28 March 2017 (PlayStation 4)"
+    ],
+    "release_date_EU_AUS": [
+      "31 March 2017 (EU and AUS)"
+    ],
+    "release_date_WW": [
+      "18 February 2020 (Xbox One)",
+      "30 March 2021 (Windows)",
+      "10 February 2022 (Nintendo Switch 1)",
+      "13 June 2024 (Steam)"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One",
+      "Windows",
+      "Nintendo Switch 1",
+      "Steam"
+    ],
+    "description": "Contains Kingdom Hearts 1.5 HD ReMIX and Kingdom Hearts 2.5 HD ReMIX."
+  },
+  {
+    "id": 4,
+    "title": "Kingdom Hearts - The Story So Far",
+    "release_date_JP": [
+      "Was Not Released in Japan"
+    ],
+    "release_date_NA": [
+      "30 October 2018 (PlayStation 4",
+      "USA)",
+      "15 March 2019 (PlayStation 4",
+      "Canada)"
+    ],
+    "release_date_EU_AUS": [
+      "29 March 2019 (EU)"
+    ],
+    "release_date_WW": [
+      "18 February 2020 (Xbox One)"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One"
+    ],
+    "description": "Contains Kingdom Hearts 1.5 + 2.5 HD ReMix and Kingdom Hearts HD 2.8 Final Chapter Prologue."
+  },
+  {
+    "id": 5,
+    "title": "Kingdom Hearts All-in-One Package",
+    "release_date_JP": [
+      "See Worldwide Release Dates"
+    ],
+    "release_date_NA": [
+      "17 March 2020"
+    ],
+    "release_date_EU_AUS": [
+      "See Worldwide Release Dates"
+    ],
+    "release_date_WW": [
+      "17 March 2020",
+      "10 February 2022"
+    ],
+    "platform": [
+      "PlayStation 4",
+      "Xbox One",
+      "Nintendo Switch 1"
+    ],
+    "description": "Contains Kingdom Hearts 1.5 + 2.5 HD ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue, and the base game of Kingdom Hearts III."
+  },
+  {
+    "id": 6,
+    "title": "Kingdom Hearts Integrum Masterpiece",
+    "release_date_JP": [
+      "10 February 2022 (Nintendo Switch 1)",
+      "13 June 2024 (Steam)"
+    ],
+    "release_date_NA": [
+      "10 February 2022 (Nintendo Switch 1",
+      "USA and CAN)",
+      "13 June 2024 (Steam",
+      "USA and CAN)"
+    ],
+    "release_date_EU_AUS": [
+      "10 February 2022 (Nintendo Switch 1",
+      "EU)",
+      "13 June 2024 (Steam",
+      "EU)"
+    ],
+    "release_date_WW": [
+      "Was never released in other regions"
+    ],
+    "platform": [
+      "Nintendo Switch 1",
+      "Steam"
+    ],
+    "description": "Contains Kingdom Hearts 1.5 + 2.5 HD ReMIX, Kingdom Hearts HD 2.8 Final Chapter Prologue, Kingdom Hearts III + ReMind DLC. On Nintendo Switch this is available to purchase through digital download and cloud gaming. On Steam each collection and KH3 + ReMind can be bought separately."
+  }
+]
