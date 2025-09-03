@@ -47,9 +47,7 @@ export default function OriginalGames() {
                             alt={game.title}
                             className="mt-[2vh] w-[200px] h-[300px]" 
                         />
-                        <p
-                            className="text-center w-[200px]"
-                        >
+                        <p className="text-center w-[200px]">
                             {he.decode(game.title)}
                         </p>
                     </div>

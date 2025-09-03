@@ -97,9 +97,7 @@ export const OriginalGamesPopUp: React.FC<OGGamesProps> = ({ isOpen, onClose, ti
                     <Image src={src} alt="" height="150" width="100" />
                 </section>
                 <section>
-                    <p
-                        className={desc}
-                    >
+                    <p className={desc}>
                         {he.decode(description)}
                     </p>
                 </section>
