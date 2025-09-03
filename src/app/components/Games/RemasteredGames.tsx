@@ -1,14 +1,15 @@
 "use client"
+
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import he from "he";
-import { OriginalGamesPopUp } from "./PopUps/OriginalGamesPopUp";
-import { OGGamesProps } from "@/lib/types";
-import { gameImages } from "@/lib/ogboxArt";
-import originalGames from "../../../../api/data/json/originalGames.json";
+import { RemasteredGamesPopUp } from "./PopUps/RemasteredGamesPopUp";
+import { RGGamesProps } from "@/lib/types";
+import { remasteredGamesImages } from "@/lib/rgBoxArt";
+import remasteredGames from "../../../../api/data/json/remasteredGames.json";
 
-export default function OriginalGames() {
-    const [selected, setSelected] = useState<OGGamesProps | null>(null);
+export default function RemasteredGames() {
+    const [selected, setSelected] = useState<RGGamesProps | null>(null);
 
     // Lock Scrolling when Pop Up is Open
     useEffect(() => {
@@ -24,15 +25,15 @@ export default function OriginalGames() {
         <div
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-x-[4vh] gap-y-[4vh] p-4"
         >
-            {originalGames.map((game) => {
-                const image = gameImages[game.id];
+            {remasteredGames.map((game) => {
+                const image = remasteredGamesImages[game.id];
 
                 if (!image) return null;
 
                 return (
                     <div
                         key={game.id}
-                        onClick={() => 
+                        onClick={() =>
                             setSelected({
                                 ...game,
                                 isOpen: true,
@@ -43,9 +44,9 @@ export default function OriginalGames() {
                         className="cursor-pointer w-[200px] transition-transform duration-200 ease hover:scale-105"
                     >
                         <Image 
-                            src={image} 
+                            src={image}
                             alt={game.title}
-                            className="mt-[2vh] w-[200px] h-[300px]" 
+                            className="mt-[2vh] w-[200px] h-[300px]"
                         />
                         <p className="text-center w-[200px]">
                             {he.decode(game.title)}
@@ -55,7 +56,7 @@ export default function OriginalGames() {
             })}
 
             {selected && (
-                <OriginalGamesPopUp 
+                <RemasteredGamesPopUp 
                     {...selected}
                     onClose={() => setSelected(null)}
                 />
