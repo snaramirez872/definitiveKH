@@ -7,7 +7,7 @@ Welcome to the code repository for Definitive KH! Definitive KH is a slightly am
 - Shows the time since the Kingdom Hearts community received any new KH4 information.
 - Shows the time since the original Kingdom Hearts IV reveal trailer.
 
-### Games Page (Currently in Development)
+### Games Page
 - The Original Games + DLC in **Release Order**
 - The remastered versions that exist for some of the games
 - The different collections that exist for the series.
