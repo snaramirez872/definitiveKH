@@ -31,3 +31,17 @@ export interface RGGamesProps {
     description: string;
     src: StaticImageData;
 }
+
+export interface CollProps {
+    isOpen: boolean;
+    onClose: () => void;
+    id: number;
+    title: string;
+    release_date_JP: string[];
+    release_date_NA: string[];
+    release_date_EU_AUS: string[];
+    release_date_WW: string[];
+    platform: string[];
+    description: string;
+    src: StaticImageData;
+}
