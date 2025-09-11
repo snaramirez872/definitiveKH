@@ -30,7 +30,7 @@ export default function NavBar() {
             <div className="hidden md:flex gap-x-[2vh]">
                 <NavLink text="Games" link="/games" />
                 <NavLink text="Story" link="#" />
-                <NavLink text="History" link="#" />
+                <NavLink text="History" link="/history" />
                 <NavLink text="Soundtracks" link="#" />
             </div>
 
@@ -71,7 +71,7 @@ export default function NavBar() {
                         >   
                             <NavLink text="Games" link="/games" onClick={() => setIsOpen(false)} />
                             <NavLink text="Story" link="#" onClick={() => setIsOpen(false)} />
-                            <NavLink text="History" link="#" onClick={() => setIsOpen(false)} />
+                            <NavLink text="History" link="/history" onClick={() => setIsOpen(false)} />
                             <NavLink text="Soundtracks" link="#" onClick={() => setIsOpen(false)} />
                         </motion.div>
                     </>
