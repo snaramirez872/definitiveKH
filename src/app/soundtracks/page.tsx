@@ -1,0 +1,16 @@
+import Link from "next/link";
+import Button from "../components/Button";
+
+export default function soundtracks() {
+    return (
+        <div className="py-15 pb-30 px-10 sm:px-50 text-[18px] sm:text-[20px]">
+            <h1 className="text-3xl py-3 sm:text-3xl font-medium">The Soundtracks</h1>
+            <p className="pb-9">The music of the Kingdom Hearts Games are all composed by <Link href="https://en.wikipedia.org/wiki/Yoko_Shimomura" target="_blank" rel="noreferrer" className="underline text-blue-500">Yoko Shimomura</Link> with orchestral arrangements by <Link href="https://en.wikipedia.org/wiki/Kaoru_Wada" target="_blank" rel="noreferrer" className="underline text-blue-500">Kaoru Wada</Link>. The games also feature many vocal works with the most notable of them being the four main theme songs: &quot;Hikari&quot;, &quot;Passion&quot;, &quot;Chikai&quot;, and &quot;Face my Fears&quot;. These songs were both written and performed by Japanese-American pop star Hikaru Utada. Arrangements from Square Enix's Final Fantasy series and many Disney Intellectual Properties are also used.</p>
+            <h2 className="text-2xl py-3 sm:text-2xl font-medium">The Main Themes</h2>
+            <p className="pb-7">As said before, Hikaru Utada wrote and performed each of the four main themes of the games: &quot;Hikari&quot;, &quot;Passion&quot;, &quot;Chikai&quot;, and &quot;Face My Fears&quot;. The first three songs also have English versions: &quot;Simple and Clean&quot;, &quot;Sanctuary&quot; (Passion is an English name but the song itself has Japanese lyrics), and &quot;Don't Think Twice&quot;. &quot;Face My Fears&quot; has an English version as well but it's under the same name. In the games, these songs are played during anime-esque opening movies. </p>
+            <p className="pb-7">The opening movies for Kingdom Hearts I, Re:Chain of Memories, Birth By Sleep, and Re:Coded all feature a remix of &quot;Hikari&quot;/&quot;Simple and Clean&quot; produced by PlanitB. A different remix of &quot;Hikari&quot;/&quot;Simple and Clean&quot; titled &quot;Ray of Hope MIX&quot; was produced by PUNPEE for the opening movie of Kingdom Hearts 0.2 Birth By Sleep -A Fragmentary Passage-. The opening movie for Kingdom Hearts Dream Drop Distance uses an orchestral arrangement of &quot;Hikari&quot;/&quot;Simple and Clean&quot;. The opening movie for Kingdom Hearts Melody of Memory uses the original mix of &quot;Hikari&quot;/&quot;Simple and Clean&quot;. Kingdom Hearts III has a pair of opening movies that use &quot;Chikai&quot;/&quot;Don't Think Twice&quot; and &quot;Face My Fears&quot; resepctively. The rest of the games use &quot;Passion&quot;/&quot;Sanctuary&quot; in their opening movies. Different arrangements of each of these songs also exist in the games themselves and in concert form.</p>
+            <p className="pb-7">The following links can be used to explore the different soundtracks of the Kingdom Hearts games.</p>
+            <Button text="Kingdom Hearts" href="/soundtracks/kingdom_hearts" />
+        </div>
+    );
+}
