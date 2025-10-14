@@ -31,7 +31,7 @@ export default function NavBar() {
                 <NavLink text="Games" link="/games" />
                 <NavLink text="Story" link="#" />
                 <NavLink text="History" link="/history" />
-                <NavLink text="Soundtracks" link="#" />
+                <NavLink text="Soundtracks" link="/soundtracks" />
             </div>
 
             {/* Mobile Menu Button */}
@@ -72,7 +72,7 @@ export default function NavBar() {
                             <NavLink text="Games" link="/games" onClick={() => setIsOpen(false)} />
                             <NavLink text="Story" link="#" onClick={() => setIsOpen(false)} />
                             <NavLink text="History" link="/history" onClick={() => setIsOpen(false)} />
-                            <NavLink text="Soundtracks" link="#" onClick={() => setIsOpen(false)} />
+                            <NavLink text="Soundtracks" link="/soundtracks" onClick={() => setIsOpen(false)} />
                         </motion.div>
                     </>
                 )}
