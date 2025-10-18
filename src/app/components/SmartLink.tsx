@@ -17,15 +17,20 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
 
     function getAppURL() {
         switch (type) {
-            case "youtube":
+            case "youtube": {
                 if (url.startsWith("https://youtu.be/")) {
                     const [base, query] = url.replace("https://youtu.be/", "").split("?");
                     const videoId = base;
                     const queryString = query ? `?${query}` : "";
-                    return `youtube://www.youtube.com/watch?v=${videoId}${queryString}`;
-                } else {
-                    return url.replace("https://www.youtube.com", "youtube://www.youtube.com");
+                    return `vnd.youtube://${videoId}${queryString}`;
                 }
+                // Full YouTube URLs
+                const match = url.match(/[?&]v=([^&]+)/);
+                if (match) {
+                    return `vnd.youtube://${match[1]}`;
+                }
+                return url;
+            }
             case "spotify":
                 return url.replace("https://open.spotify.com/", "spotify:").replace(/\//g, ":");
             case "applemusic":
@@ -38,13 +43,7 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
     function handleOpenApp() {
         const appURL = getAppURL();
         
-        const a = document.createElement("a");
-        a.href = appURL;
-        a.target = "_blank";
-        a.rel = "noopener noreferrer";
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
+        window.location.href = appURL;
 
         setTimeout(() => {
             window.location.href = url;
