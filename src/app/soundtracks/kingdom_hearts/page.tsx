@@ -7,7 +7,7 @@ export default function KH1_Soundtrack() {
             <BackButton href="/soundtracks" />
             <h2>Kingdom Hearts Soundtrack</h2>
             <p>[Insert text about Kingdom Hearts Soundtrack]</p>
-            <SmartLink text="KH1 Opening Movie" type="youtube" url="https://youtu.be/_dLOO2SbdH0?list=RD_dLOO2SbdH0" />
+            <SmartLink text="KH1 Opening Movie" type="youtube" url="https://youtu.be/_dLOO2SbdH0?si=v_ajg3qGh-iGnIOm" />
         </div>
     );
 }
