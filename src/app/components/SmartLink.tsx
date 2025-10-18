@@ -21,7 +21,7 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
                 if (url.startsWith("https://youtu.be/")) {
                     const [base, query] = url.replace("https://youtu.be/", "").split("?");
                     const videoId = base;
-                    const queryString = query ? `&${query}` : "";
+                    const queryString = query ? `?${query}` : "";
                     return `youtube://www.youtube.com/watch?v=${videoId}${queryString}`;
                 } else {
                     return url.replace("https://www.youtube.com", "youtube://www.youtube.com");
@@ -37,7 +37,14 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
 
     function handleOpenApp() {
         const appURL = getAppURL();
-        window.location.href = appURL;
+        
+        const a = document.createElement("a");
+        a.href = appURL;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
 
         setTimeout(() => {
             window.location.href = url;
