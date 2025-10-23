@@ -66,7 +66,7 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
                 }}
                 className="
                     cursor-pointer border-0 py-2
-                    w-[50%] hover:w-[35%]
+                    w-[60%] hover:w-[45%]
                     bg-black text-white hover:text-black hover:bg-yellow-500
                     md:w-[20%] md:hover:w-[15%]
                 "
