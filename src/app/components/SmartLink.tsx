@@ -46,12 +46,12 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
         window.location.href = appURL;
 
         setTimeout(() => {
-            window.location.href = url;
+            window.open(url, "_blank");
         }, 1000);
     }
 
     function handleOpenWeb() {
-        window.location.href = url;
+        window.open(url, "_blank");
     }
 
     return (
@@ -64,6 +64,12 @@ export default function SmartLink({ text, url, type, children }: SmartLinkProps)
                         handleOpenWeb();
                     }
                 }}
+                className="
+                    cursor-pointer border-0 py-2
+                    w-[50%] hover:w-[35%]
+                    bg-black text-white hover:text-black hover:bg-yellow-500
+                    md:w-[20%] md:hover:w-[15%]
+                "
             >
                 {children && <span>{children}</span>}
                 {text && <span>{text}</span>}
