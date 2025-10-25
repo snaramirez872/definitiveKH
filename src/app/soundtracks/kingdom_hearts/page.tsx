@@ -1,10 +1,10 @@
-import Button from "@/app/components/Button";
+import BackButton from "@/app/components/BackButton";
 import SmartLink from "@/app/components/SmartLink";
 
 export default function KH1_Soundtrack() {
     return (
         <div className="py-15 pb-30 px-10 md:px-20 text-[18px] md:text-[20px]">
-            <Button href="/soundtracks" text="Back" />
+            <BackButton href="/soundtracks" />
             <h2 className="text-2xl  pt-4 pb-3 md:text-2xl font-medium">Kingdom Hearts Soundtrack</h2>
             <p className="pt-1">The first link is to the opening movie featured when starting a new game in Kingdom Hearts I: Final Mix.</p>
             <p className="pt-4">In both the Spotify and Apple Music Albums, the soundtrack for Kingdom Hearts I is in Discs 1 and 2.</p>
