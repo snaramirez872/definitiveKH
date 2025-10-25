@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 import NavBar from "./components/NavBar/NavBar";
 import "./globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="overflow-auto scrollbar-hide">
         <NavBar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
