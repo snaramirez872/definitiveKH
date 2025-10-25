@@ -9,7 +9,12 @@ export default function Button({ text, href }: ButtonProps) {
     return (
         <Link 
             href={href}
-            className="bg-black text-white px-6 py-2 hover:px-4 hover:bg-yellow-400 hover:text-black"
+            className="
+                cursor-pointer px-4 py-2
+                w-[60%] hover:w-[45%]
+                bg-black text-white hover:text-black hover:bg-yellow-400
+                md:w-[30%] md:hover:w-[25%]
+            "
         >
             {text}
         </Link>

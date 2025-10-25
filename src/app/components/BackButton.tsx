@@ -8,7 +8,7 @@ export default function BackButton({ href }: BackButtonProps) {
     return (
         <Link 
             href={href}
-            className="flex gap-x-3 bg-black text-white w-17 p-2 text-[18px]"
+            className="bg-black text-white px-6 py-2 hover:px-4 hover:bg-yellow-400 hover:text-black"
         >
             Back
         </Link>
