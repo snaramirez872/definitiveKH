@@ -16,6 +16,7 @@ export default function soundtracks() {
                 <Button text="Kingdom Hearts II Final Mix" href="/soundtracks/kingdom_hearts_iifm" />
                 <Button text="Kingdom Hearts Birth by Sleep Final Mix" href="/soundtracks/kingdom_hearts_bbsfm" />
                 <Button text="Kingdom Hearts 358/2 Days" href="/soundtracks/kingdom_hearts_358_days" />
+                <Button text="Kingdom Hearts Re:Coded" href="/soundtracks/kingdom_hearts_recoded" />
             </div>
         </div>
     );
