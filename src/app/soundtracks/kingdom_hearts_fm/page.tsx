@@ -7,7 +7,7 @@ export default function KH1_Soundtrack() {
             <BackButton href="/soundtracks" />
             <h2 className="text-2xl pt-4 pb-3 md:text-2xl font-medium">Kingdom Hearts Final Mix Soundtrack</h2>
             <p className="pt-1">The first link is to the opening movie featured when starting a new game in Kingdom Hearts I: Final Mix.</p>
-            <p className="pt-4">In both the Spotify and Apple Music compilations, the soundtrack for Kingdom Hearts I is in Discs 1 and 2. You may listen to Disc 3 if you wish, however this is select music from Chain of Memories.</p>
+            <p className="pt-4">In both the Spotify and Apple Music compilations, the soundtrack for Kingdom Hearts I is in Discs 1 and 2. You may listen to Disc 3 if you wish, however this is select music from Chain of Memories and 358/2 Days.</p>
             <div className="flex flex-col gap-4 pt-7">
                 <SmartLink text="Opening Movie" type="youtube" url="https://youtu.be/_dLOO2SbdH0?si=v_ajg3qGh-iGnIOm" />
                 <SmartLink text="Spotify Playlist" type="spotify" url="https://open.spotify.com/album/59xa0duBH2doywRKohAqIY?si=zXfN1fGqQjOlV67yslYIvg" />
