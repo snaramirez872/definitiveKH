@@ -5,7 +5,7 @@ export default function KH1_Soundtrack() {
     return (
         <div className="py-15 pb-30 px-10 md:px-20 text-[18px] md:text-[20px]">
             <BackButton href="/soundtracks" />
-            <h2 className="text-2xl pt-4 pb-3 md:text-2xl font-medium">Kingdom Hearts Final Mix Soundtrack</h2>
+            <h2 className="text-2xl pt-4 pb-3 md:text-2xl font-medium">Kingdom Hearts Soundtrack</h2>
             <p className="pt-1">The first link is to the opening movie featured when starting a new game in Kingdom Hearts I: Final Mix.</p>
             <p className="pt-4">In both the Spotify and Apple Music compilations, the soundtrack for Kingdom Hearts I is in Discs 1 and 2. You may listen to Disc 3 if you wish, however this is select music from Chain of Memories.</p>
             <div className="flex flex-col gap-4 pt-7">

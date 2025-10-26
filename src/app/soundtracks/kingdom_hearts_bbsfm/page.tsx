@@ -1,5 +1,5 @@
-import BackButton from "@/app/components/BackButton";
-import SmartLink from "@/app/components/SmartLink";
+import BackButton from "../../components/BackButton";
+import SmartLink from "../../components/SmartLink";
 
 export default function KH_RCOM_Soundtrack() {
     return (
