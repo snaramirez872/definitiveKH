@@ -17,7 +17,10 @@ export default function soundtracks() {
                 <Button text="Kingdom Hearts Birth by Sleep Final Mix" href="/soundtracks/kingdom_hearts_bbsfm" />
                 <Button text="Kingdom Hearts 358/2 Days" href="/soundtracks/kingdom_hearts_358_days" />
                 <Button text="Kingdom Hearts Re:Coded" href="/soundtracks/kingdom_hearts_recoded" />
+                <Button text="Kingdom Hearts Dream Drop Distance HD" href="/soundtracks/kingdom_hearts_ddd" />
+                <Button text="Kingdom Hearts III + Re:Mind" href="/soundtracks/kingdom_hearts_iii" />
             </div>
+            <p className="py-7">Any game not listed above uses various arrangements that are already listed and linked.</p>
         </div>
     );
 }
