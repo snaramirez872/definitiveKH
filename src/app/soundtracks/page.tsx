@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Button from "../components/Button";
+import SmartLink from "../components/SmartLink";
 
 export default function soundtracks() {
     return (
@@ -20,7 +21,15 @@ export default function soundtracks() {
                 <Button text="Kingdom Hearts Dream Drop Distance HD" href="/soundtracks/kingdom_hearts_ddd" />
                 <Button text="Kingdom Hearts III + Re:Mind" href="/soundtracks/kingdom_hearts_iii" />
             </div>
-            <p className="py-7">Any game not listed above uses various arrangements that are already listed and linked.</p>
+            <p className="py-7">Any game not listed above uses various arrangements that are already listed and linked or are currently not released to the public.</p>
+            <div>
+                <div>
+                    <h2>Kingdom Hearts Orchestra -World of Tres-</h2>
+                    <p>In celebration of Kingdom Hearts III in 2019, Square Enix organized the Kingdom Hearts World of Tres Orchestra Tour. The tour ran from April 2019 to November 2019. Various arrangements from the Kingdom Hearts franchise were performed by the Kanagawa Philharmonic Orchestra and led/composed by Yoko Shimomoura herself.</p>
+                    <p>To read more info about the World of Tres Orchestra, please go <Link href="https://www.khwiki.com/Kingdom_Hearts_Orchestra_-World_of_Tres-">here</Link> to the Kingdom Hearts Wiki Page dedicated to it.</p>
+                    <p>A live recordng of the show is part of a DLC bundle included with Kingdom Hearts III Re Mind.</p>
+                </div>
+            </div>
         </div>
     );
 }
