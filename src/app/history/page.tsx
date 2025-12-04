@@ -9,7 +9,7 @@ export default async function History() {
     const pre_production = he.decode(getTxtFile("pre-production.txt")).replace(/\r?\n/g, "<br />");
 
     return (
-        <div className="py-15 pb-30 px-10 sm:px-20 text-[18px] sm:text-[20px]">
+        <div className="py-15 pb-30 px-10 sm:px-50 text-[18px] sm:text-[20px]">
             <h2 className="text-2xl py-3 sm:text-2xl font-medium">Brief History of Square Enix</h2>
             <TextFileContent text={enix_history} />
             <TextFileContent text={square_history} />

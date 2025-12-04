@@ -4,7 +4,7 @@ import SmartLink from "../components/SmartLink";
 
 export default function soundtracks() {
     return (
-        <div className="py-15 pb-30 px-10 md:px-20 text-[18px] md:text-[20px]">
+        <div className="py-15 pb-30 px-10 md:px-50 text-[18px] md:text-[20px]">
             <h1 className="text-3xl py-3 md:text-3xl font-medium">The Soundtracks</h1>
             <p className="pb-9">The music of the Kingdom Hearts Games are all composed by <Link href="https://en.wikipedia.org/wiki/Yoko_Shimomura" target="_blank" rel="noreferrer" className="underline text-blue-500">Yoko Shimomura</Link> with orchestral arrangements by <Link href="https://en.wikipedia.org/wiki/Kaoru_Wada" target="_blank" rel="noreferrer" className="underline text-blue-500">Kaoru Wada</Link>. The games also feature many vocal works with the most notable of them being the four main theme songs: &quot;Hikari&quot;, &quot;Passion&quot;, &quot;Chikai&quot;, and &quot;Face my Fears&quot;. These songs were both written and performed by Japanese-American pop star Hikaru Utada. Arrangements from Square Enix&apos;s Final Fantasy series and many Disney Intellectual Properties are also used to reflect the usage of Final Fantasy characters, Disney characters, and Disney-themed Worlds.</p>
             <h2 className="text-2xl py-3 md:text-2xl font-medium">The Main Themes</h2>
@@ -24,9 +24,9 @@ export default function soundtracks() {
             <p className="py-7">Any game not listed above uses various arrangements that are already listed and linked or are currently not released to the public.</p>
             <div>
                 <div>
-                    <h2>Kingdom Hearts Orchestra -World of Tres-</h2>
+                    <h2 className="text-2xl py-3 md:text-2xl font-medium">Kingdom Hearts Orchestra -World of Tres-</h2>
                     <p>In celebration of Kingdom Hearts III in 2019, Square Enix organized the Kingdom Hearts World of Tres Orchestra Tour. The tour ran from April 2019 to November 2019. Various arrangements from the Kingdom Hearts franchise were performed by the Kanagawa Philharmonic Orchestra and led/composed by Yoko Shimomoura herself.</p>
-                    <p>To read more info about the World of Tres Orchestra, please go <Link href="https://www.khwiki.com/Kingdom_Hearts_Orchestra_-World_of_Tres-">here</Link> to the Kingdom Hearts Wiki Page dedicated to it.</p>
+                    <p>To read more info about the World of Tres Orchestra, please go <Link href="https://www.khwiki.com/Kingdom_Hearts_Orchestra_-World_of_Tres-" target="_blank" rel="noreferrer" className="underline text-blue-500">here</Link> to the Kingdom Hearts Wiki Page dedicated to it.</p>
                     <p>A live recordng of the show is part of a DLC bundle included with Kingdom Hearts III Re Mind.</p>
                 </div>
             </div>

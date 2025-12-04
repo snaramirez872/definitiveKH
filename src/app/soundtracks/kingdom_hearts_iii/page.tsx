@@ -3,7 +3,7 @@ import SmartLink from "../../components/SmartLink";
 
 export default function KH3_Soundtrack() {
     return (
-        <div className="py-15 pb-30 px-10 md:px-20 text-[18px] md:text-[20px]">
+        <div className="py-15 pb-30 px-10 md:px-50 text-[18px] md:text-[20px]">
             <BackButton href="/soundtracks" />
             <h2 className="text-2xl pt-4 pb-3 md:text-2xl font-medium">Kingdom Hearts III</h2>
             <p className="pt-1"><b>SPOILER WARNING: </b>Opening Movie 1 for this title contains contains major spoilers for many other games in the series.</p>
