@@ -12,16 +12,16 @@ Welcome to the code repository for Definitive KH! Definitive KH is a slightly am
 - The remastered versions that exist for some of the games
 - The different collections that exist for the series.
 
-### Story Page (Planned, Not Yet in Development)
+### Story Page (In Progress)
 - Will give synopses for each of the game.
 - Will try as much as possible to avoid spoilers, but we will see.
 
-### History Page (Planned, Not Yet in Development)
-- Will give the background of how the Kingdom Hearts games began and other cool facts about the series.
+### History Page
+- Gives background information about how the Kingdom Hearts games began and other cool facts about the series.
 - May include a fun facts section for any extra facts.
 
-### Soundtracks (Planned, Not Yet in Development)
-- Will link to the games soundtracks (whatever official is available on YouTube and Music Streaming Services)
+### Soundtracks
+- Links to the games soundtracks (whatever is available on YouTube and Music Streaming Services) and the opening movies.
 
 ## Technologies Used
 ![](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
