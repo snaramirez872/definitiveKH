@@ -10,7 +10,8 @@ Welcome to the code repository for Definitive KH! Definitive KH is a slightly am
 ### Games Page
 - The Original Games + DLC in **Release Order**
 - The remastered versions that exist for some of the games
-- The different collections that exist for the series.
+- The different collections that exist for the series
+- Ends with a short paragraph that details a reccomended plan for where to play the games.
 
 ### Story Page (In Progress)
 - Will give synopses for each of the game.
@@ -18,7 +19,7 @@ Welcome to the code repository for Definitive KH! Definitive KH is a slightly am
 
 ### History Page
 - Gives background information about how the Kingdom Hearts games began and other cool facts about the series.
-- May include a fun facts section for any extra facts.
+- Includes a fun facts section for any extra facts.
 
 ### Soundtracks
 - Links to the games soundtracks (whatever is available on YouTube and Music Streaming Services) and the opening movies.
