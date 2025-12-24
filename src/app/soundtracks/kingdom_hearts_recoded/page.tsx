@@ -9,7 +9,7 @@ export default function KH_RCOM_Soundtrack() {
             <p className="pt-1"><b>SPOILER WARNING: </b>The Opening Movie for this title contains contains major spoilers for Kingdom Hearts I, Re:Chain of Memories, and II.</p>
             <div className="flex flex-col gap-4 pt-7">
                 <SmartLink text="Opening Movie" type="youtube" url="https://youtu.be/406y8AvF_zc" />
-                <SmartLink text="Original NDS Game OST" type="youtube" url="https://youtu.be/EK4Nas0mcpM?list=PL1D4E1B91FC330A96" />
+                <SmartLink text="YouTube Playlist" type="youtube" url="https://youtu.be/EK4Nas0mcpM?list=PL1D4E1B91FC330A96" />
             </div>
 
         </div>
